@@ -1,0 +1,13 @@
+#IntelliJ
+
+.idea
+*.iml
+
+#Eclipse
+.settings
+.project
+.classpath
+
+#Maven
+build.log
+target

@@ -1,0 +1,743 @@
+{
+  "className": "class com.redgear.javalisp.Lisp$SExpression",
+  "expressions": [
+    {
+      "className": "class com.redgear.javalisp.Lisp$SExpression",
+      "expressions": [
+        {
+          "className": "class com.redgear.javalisp.Lisp$Identifier",
+          "name": "def'"
+        },
+        {
+          "className": "class com.redgear.javalisp.Lisp$Identifier",
+          "name": "defn'"
+        },
+        {
+          "className": "class com.redgear.javalisp.Lisp$SExpression",
+          "expressions": [
+            {
+              "className": "class com.redgear.javalisp.Lisp$Identifier",
+              "name": "print'"
+            },
+            {
+              "className": "class com.redgear.javalisp.Lisp$SExpression",
+              "expressions": [
+                {
+                  "className": "class com.redgear.javalisp.Lisp$Identifier",
+                  "name": "macro'"
+                },
+                {
+                  "className": "class com.redgear.javalisp.Lisp$Identifier",
+                  "name": "name'"
+                },
+                {
+                  "className": "class com.redgear.javalisp.Lisp$Identifier",
+                  "name": "arg1'"
+                },
+                {
+                  "className": "class com.redgear.javalisp.Lisp$Identifier",
+                  "name": "arg2'"
+                },
+                {
+                  "className": "class com.redgear.javalisp.Lisp$Identifier",
+                  "name": "fun'"
+                },
+                {
+                  "className": "class com.redgear.javalisp.Lisp$SExpression",
+                  "expressions": [
+                    {
+                      "className": "class com.redgear.javalisp.Lisp$Identifier",
+                      "name": "print'"
+                    },
+                    {
+                      "className": "class com.redgear.javalisp.Lisp$SExpression",
+                      "expressions": [
+                        {
+                          "className": "class com.redgear.javalisp.Lisp$Identifier",
+                          "name": "def'"
+                        },
+                        {
+                          "className": "class com.redgear.javalisp.Lisp$Identifier",
+                          "name": "name'"
+                        },
+                        {
+                          "className": "class com.redgear.javalisp.Lisp$Identifier",
+                          "name": "arg1'"
+                        },
+                        {
+                          "className": "class com.redgear.javalisp.Lisp$Identifier",
+                          "name": "arg2'"
+                        },
+                        {
+                          "className": "class com.redgear.javalisp.Lisp$Identifier",
+                          "name": "fun'"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "className": "class com.redgear.javalisp.Lisp$SExpression",
+      "expressions": [
+        {
+          "className": "class com.redgear.javalisp.Lisp$Identifier",
+          "name": "print'"
+        },
+        {
+          "className": "class com.redgear.javalisp.Lisp$Literal",
+          "value": "Equals: ("
+        },
+        {
+          "className": "class com.redgear.javalisp.Lisp$SExpression",
+          "expressions": [
+            {
+              "className": "class com.redgear.javalisp.Lisp$Identifier",
+              "name": "='"
+            },
+            {
+              "className": "class com.redgear.javalisp.Lisp$Literal",
+              "value": "2"
+            },
+            {
+              "className": "class com.redgear.javalisp.Lisp$Literal",
+              "value": "2.0"
+            },
+            {
+              "className": "class com.redgear.javalisp.Lisp$Literal",
+              "value": "2.00"
+            },
+            {
+              "className": "class com.redgear.javalisp.Lisp$SExpression",
+              "expressions": [
+                {
+                  "className": "class com.redgear.javalisp.Lisp$Identifier",
+                  "name": "-'"
+                },
+                {
+                  "className": "class com.redgear.javalisp.Lisp$Literal",
+                  "value": "4"
+                },
+                {
+                  "className": "class com.redgear.javalisp.Lisp$Literal",
+                  "value": "2"
+                }
+              ]
+            },
+            {
+              "className": "class com.redgear.javalisp.Lisp$SExpression",
+              "expressions": [
+                {
+                  "className": "class com.redgear.javalisp.Lisp$Identifier",
+                  "name": "+'"
+                },
+                {
+                  "className": "class com.redgear.javalisp.Lisp$Literal",
+                  "value": "1"
+                },
+                {
+                  "className": "class com.redgear.javalisp.Lisp$Literal",
+                  "value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "className": "class com.redgear.javalisp.Lisp$Literal",
+          "value": ")"
+        }
+      ]
+    },
+    {
+      "className": "class com.redgear.javalisp.Lisp$SExpression",
+      "expressions": [
+        {
+          "className": "class com.redgear.javalisp.Lisp$Identifier",
+          "name": "print'"
+        },
+        {
+          "className": "class com.redgear.javalisp.Lisp$Literal",
+          "value": "String add: "
+        },
+        {
+          "className": "class com.redgear.javalisp.Lisp$SExpression",
+          "expressions": [
+            {
+              "className": "class com.redgear.javalisp.Lisp$Identifier",
+              "name": "+'"
+            },
+            {
+              "className": "class com.redgear.javalisp.Lisp$Literal",
+              "value": "Test: "
+            },
+            {
+              "className": "class com.redgear.javalisp.Lisp$SExpression",
+              "expressions": [
+                {
+                  "className": "class com.redgear.javalisp.Lisp$Identifier",
+                  "name": "*'"
+                },
+                {
+                  "className": "class com.redgear.javalisp.Lisp$Literal",
+                  "value": "2"
+                },
+                {
+                  "className": "class com.redgear.javalisp.Lisp$Literal",
+                  "value": "3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "className": "class com.redgear.javalisp.Lisp$SExpression",
+      "expressions": [
+        {
+          "className": "class com.redgear.javalisp.Lisp$Identifier",
+          "name": "print'"
+        },
+        {
+          "className": "class com.redgear.javalisp.Lisp$Literal",
+          "value": "Nums: "
+        },
+        {
+          "className": "class com.redgear.javalisp.Lisp$Literal",
+          "value": "1"
+        },
+        {
+          "className": "class com.redgear.javalisp.Lisp$Literal",
+          "value": "2"
+        },
+        {
+          "className": "class com.redgear.javalisp.Lisp$Literal",
+          "value": "3"
+        },
+        {
+          "className": "class com.redgear.javalisp.Lisp$Literal",
+          "value": "4"
+        },
+        {
+          "className": "class com.redgear.javalisp.Lisp$Literal",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "className": "class com.redgear.javalisp.Lisp$SExpression",
+      "expressions": [
+        {
+          "className": "class com.redgear.javalisp.Lisp$Identifier",
+          "name": "print'"
+        },
+        {
+          "className": "class com.redgear.javalisp.Lisp$Literal",
+          "value": "Head and tail: "
+        },
+        {
+          "className": "class com.redgear.javalisp.Lisp$SExpression",
+          "expressions": [
+            {
+              "className": "class com.redgear.javalisp.Lisp$Identifier",
+              "name": "head'"
+            },
+            {
+              "className": "class com.redgear.javalisp.Lisp$SExpression",
+              "expressions": [
+                {
+                  "className": "class com.redgear.javalisp.Lisp$Identifier",
+                  "name": "tail'"
+                },
+                {
+                  "className": "class com.redgear.javalisp.Lisp$SExpression",
+                  "expressions": [
+                    {
+                      "className": "class com.redgear.javalisp.Lisp$Literal",
+                      "value": "2"
+                    },
+                    {
+                      "className": "class com.redgear.javalisp.Lisp$Literal",
+                      "value": "3"
+                    },
+                    {
+                      "className": "class com.redgear.javalisp.Lisp$Literal",
+                      "value": "4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "className": "class com.redgear.javalisp.Lisp$SExpression",
+      "expressions": [
+        {
+          "className": "class com.redgear.javalisp.Lisp$Identifier",
+          "name": "print'"
+        },
+        {
+          "className": "class com.redgear.javalisp.Lisp$Literal",
+          "value": "Sum list: "
+        },
+        {
+          "className": "class com.redgear.javalisp.Lisp$SExpression",
+          "expressions": [
+            {
+              "className": "class com.redgear.javalisp.Lisp$Identifier",
+              "name": "+'"
+            },
+            {
+              "className": "class com.redgear.javalisp.Lisp$Literal",
+              "value": "2"
+            },
+            {
+              "className": "class com.redgear.javalisp.Lisp$Literal",
+              "value": "3"
+            },
+            {
+              "className": "class com.redgear.javalisp.Lisp$Literal",
+              "value": "7"
+            },
+            {
+              "className": "class com.redgear.javalisp.Lisp$Literal",
+              "value": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "className": "class com.redgear.javalisp.Lisp$SExpression",
+      "expressions": [
+        {
+          "className": "class com.redgear.javalisp.Lisp$Identifier",
+          "name": "print'"
+        },
+        {
+          "className": "class com.redgear.javalisp.Lisp$Literal",
+          "value": "All basic math ops: "
+        },
+        {
+          "className": "class com.redgear.javalisp.Lisp$SExpression",
+          "expressions": [
+            {
+              "className": "class com.redgear.javalisp.Lisp$Identifier",
+              "name": "/'"
+            },
+            {
+              "className": "class com.redgear.javalisp.Lisp$SExpression",
+              "expressions": [
+                {
+                  "className": "class com.redgear.javalisp.Lisp$Identifier",
+                  "name": "*'"
+                },
+                {
+                  "className": "class com.redgear.javalisp.Lisp$SExpression",
+                  "expressions": [
+                    {
+                      "className": "class com.redgear.javalisp.Lisp$Identifier",
+                      "name": "+'"
+                    },
+                    {
+                      "className": "class com.redgear.javalisp.Lisp$Literal",
+                      "value": "6.5"
+                    },
+                    {
+                      "className": "class com.redgear.javalisp.Lisp$Literal",
+                      "value": "1.5"
+                    }
+                  ]
+                },
+                {
+                  "className": "class com.redgear.javalisp.Lisp$SExpression",
+                  "expressions": [
+                    {
+                      "className": "class com.redgear.javalisp.Lisp$Identifier",
+                      "name": "-'"
+                    },
+                    {
+                      "className": "class com.redgear.javalisp.Lisp$Literal",
+                      "value": "4"
+                    },
+                    {
+                      "className": "class com.redgear.javalisp.Lisp$Literal",
+                      "value": "2"
+                    }
+                  ]
+                },
+                {
+                  "className": "class com.redgear.javalisp.Lisp$Literal",
+                  "value": "2"
+                }
+              ]
+            },
+            {
+              "className": "class com.redgear.javalisp.Lisp$Literal",
+              "value": "2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "className": "class com.redgear.javalisp.Lisp$SExpression",
+      "expressions": [
+        {
+          "className": "class com.redgear.javalisp.Lisp$Identifier",
+          "name": "print'"
+        },
+        {
+          "className": "class com.redgear.javalisp.Lisp$SExpression",
+          "expressions": [
+            {
+              "className": "class com.redgear.javalisp.Lisp$Identifier",
+              "name": "if'"
+            },
+            {
+              "className": "class com.redgear.javalisp.Lisp$SExpression",
+              "expressions": [
+                {
+                  "className": "class com.redgear.javalisp.Lisp$Identifier",
+                  "name": "='"
+                },
+                {
+                  "className": "class com.redgear.javalisp.Lisp$Literal",
+                  "value": "2"
+                },
+                {
+                  "className": "class com.redgear.javalisp.Lisp$SExpression",
+                  "expressions": [
+                    {
+                      "className": "class com.redgear.javalisp.Lisp$Identifier",
+                      "name": "-'"
+                    },
+                    {
+                      "className": "class com.redgear.javalisp.Lisp$Literal",
+                      "value": "6"
+                    },
+                    {
+                      "className": "class com.redgear.javalisp.Lisp$Literal",
+                      "value": "4"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "className": "class com.redgear.javalisp.Lisp$SExpression",
+              "expressions": [
+                {
+                  "className": "class com.redgear.javalisp.Lisp$Identifier",
+                  "name": "print'"
+                },
+                {
+                  "className": "class com.redgear.javalisp.Lisp$Literal",
+                  "value": "Yay!"
+                }
+              ]
+            },
+            {
+              "className": "class com.redgear.javalisp.Lisp$SExpression",
+              "expressions": [
+                {
+                  "className": "class com.redgear.javalisp.Lisp$Identifier",
+                  "name": "print'"
+                },
+                {
+                  "className": "class com.redgear.javalisp.Lisp$Literal",
+                  "value": "Fail!"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "className": "class com.redgear.javalisp.Lisp$SExpression",
+      "expressions": [
+        {
+          "className": "class com.redgear.javalisp.Lisp$Identifier",
+          "name": "print'"
+        },
+        {
+          "className": "class com.redgear.javalisp.Lisp$SExpression",
+          "expressions": [
+            {
+              "className": "class com.redgear.javalisp.Lisp$SExpression",
+              "expressions": [
+                {
+                  "className": "class com.redgear.javalisp.Lisp$Identifier",
+                  "name": "fn'"
+                },
+                {
+                  "className": "class com.redgear.javalisp.Lisp$Identifier",
+                  "name": "x'"
+                },
+                {
+                  "className": "class com.redgear.javalisp.Lisp$Identifier",
+                  "name": "y'"
+                },
+                {
+                  "className": "class com.redgear.javalisp.Lisp$SExpression",
+                  "expressions": [
+                    {
+                      "className": "class com.redgear.javalisp.Lisp$Identifier",
+                      "name": "/'"
+                    },
+                    {
+                      "className": "class com.redgear.javalisp.Lisp$Identifier",
+                      "name": "x'"
+                    },
+                    {
+                      "className": "class com.redgear.javalisp.Lisp$Identifier",
+                      "name": "y'"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "className": "class com.redgear.javalisp.Lisp$Literal",
+              "value": "12"
+            },
+            {
+              "className": "class com.redgear.javalisp.Lisp$Literal",
+              "value": "3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "className": "class com.redgear.javalisp.Lisp$SExpression",
+      "expressions": [
+        {
+          "className": "class com.redgear.javalisp.Lisp$Identifier",
+          "name": "print'"
+        },
+        {
+          "className": "class com.redgear.javalisp.Lisp$SExpression",
+          "expressions": [
+            {
+              "className": "class com.redgear.javalisp.Lisp$Identifier",
+              "name": "let'"
+            },
+            {
+              "className": "class com.redgear.javalisp.Lisp$Identifier",
+              "name": "x'"
+            },
+            {
+              "className": "class com.redgear.javalisp.Lisp$Literal",
+              "value": "5"
+            },
+            {
+              "className": "class com.redgear.javalisp.Lisp$SExpression",
+              "expressions": [
+                {
+                  "className": "class com.redgear.javalisp.Lisp$Identifier",
+                  "name": "+'"
+                },
+                {
+                  "className": "class com.redgear.javalisp.Lisp$Identifier",
+                  "name": "x'"
+                },
+                {
+                  "className": "class com.redgear.javalisp.Lisp$Identifier",
+                  "name": "x'"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "className": "class com.redgear.javalisp.Lisp$SExpression",
+      "expressions": [
+        {
+          "className": "class com.redgear.javalisp.Lisp$Identifier",
+          "name": "print'"
+        },
+        {
+          "className": "class com.redgear.javalisp.Lisp$SExpression",
+          "expressions": [
+            {
+              "className": "class com.redgear.javalisp.Lisp$Identifier",
+              "name": "let'"
+            },
+            {
+              "className": "class com.redgear.javalisp.Lisp$Identifier",
+              "name": "add'"
+            },
+            {
+              "className": "class com.redgear.javalisp.Lisp$SExpression",
+              "expressions": [
+                {
+                  "className": "class com.redgear.javalisp.Lisp$Identifier",
+                  "name": "fn'"
+                },
+                {
+                  "className": "class com.redgear.javalisp.Lisp$Identifier",
+                  "name": "x'"
+                },
+                {
+                  "className": "class com.redgear.javalisp.Lisp$Identifier",
+                  "name": "y'"
+                },
+                {
+                  "className": "class com.redgear.javalisp.Lisp$SExpression",
+                  "expressions": [
+                    {
+                      "className": "class com.redgear.javalisp.Lisp$Identifier",
+                      "name": "+'"
+                    },
+                    {
+                      "className": "class com.redgear.javalisp.Lisp$Identifier",
+                      "name": "x'"
+                    },
+                    {
+                      "className": "class com.redgear.javalisp.Lisp$Identifier",
+                      "name": "y'"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "className": "class com.redgear.javalisp.Lisp$SExpression",
+              "expressions": [
+                {
+                  "className": "class com.redgear.javalisp.Lisp$Identifier",
+                  "name": "add'"
+                },
+                {
+                  "className": "class com.redgear.javalisp.Lisp$Literal",
+                  "value": "4"
+                },
+                {
+                  "className": "class com.redgear.javalisp.Lisp$Literal",
+                  "value": "5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "className": "class com.redgear.javalisp.Lisp$SExpression",
+      "expressions": [
+        {
+          "className": "class com.redgear.javalisp.Lisp$Identifier",
+          "name": "print'"
+        },
+        {
+          "className": "class com.redgear.javalisp.Lisp$SExpression",
+          "expressions": [
+            {
+              "className": "class com.redgear.javalisp.Lisp$Identifier",
+              "name": "let'"
+            },
+            {
+              "className": "class com.redgear.javalisp.Lisp$Identifier",
+              "name": "m'"
+            },
+            {
+              "className": "class com.redgear.javalisp.Lisp$SExpression",
+              "expressions": [
+                {
+                  "className": "class com.redgear.javalisp.Lisp$Identifier",
+                  "name": "macro'"
+                },
+                {
+                  "className": "class com.redgear.javalisp.Lisp$Identifier",
+                  "name": "x'"
+                },
+                {
+                  "className": "class com.redgear.javalisp.Lisp$SExpression",
+                  "expressions": [
+                    {
+                      "className": "class com.redgear.javalisp.Lisp$Identifier",
+                      "name": "eval'"
+                    },
+                    {
+                      "className": "class com.redgear.javalisp.Lisp$Identifier",
+                      "name": "x'"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "className": "class com.redgear.javalisp.Lisp$SExpression",
+              "expressions": [
+                {
+                  "className": "class com.redgear.javalisp.Lisp$Identifier",
+                  "name": "m'"
+                },
+                {
+                  "className": "class com.redgear.javalisp.Lisp$SExpression",
+                  "expressions": [
+                    {
+                      "className": "class com.redgear.javalisp.Lisp$Identifier",
+                      "name": "*'"
+                    },
+                    {
+                      "className": "class com.redgear.javalisp.Lisp$Literal",
+                      "value": "2"
+                    },
+                    {
+                      "className": "class com.redgear.javalisp.Lisp$Literal",
+                      "value": "3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "className": "class com.redgear.javalisp.Lisp$SExpression",
+      "expressions": [
+        {
+          "className": "class com.redgear.javalisp.Lisp$Identifier",
+          "name": "print'"
+        },
+        {
+          "className": "class com.redgear.javalisp.Lisp$SExpression",
+          "expressions": [
+            {
+              "className": "class com.redgear.javalisp.Lisp$Identifier",
+              "name": "apply'"
+            },
+            {
+              "className": "class com.redgear.javalisp.Lisp$Identifier",
+              "name": "+'"
+            },
+            {
+              "className": "class com.redgear.javalisp.Lisp$Literal",
+              "value": "2"
+            },
+            {
+              "className": "class com.redgear.javalisp.Lisp$Literal",
+              "value": "3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
